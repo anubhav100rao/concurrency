@@ -19,6 +19,6 @@ func RunRateLimiter() {
 
 	for req := range requests {
 		fmt.Println(<-ticker.C)
-		fmt.Println("Sending requests", req, "at", time.Now().Format("15:04:05.000"), "\n")
+		fmt.Println("Sending requests", req, "at", time.Now().Format("15:04:05.000"))
 	}
 }

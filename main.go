@@ -2,7 +2,8 @@ package main
 
 import (
 	// "github.com/anubhav100rao/concurrency/select_statements"
-	"github.com/anubhav100rao/concurrency/channels"
+	// "github.com/anubhav100rao/concurrency/channels"
+	"github.com/anubhav100rao/concurrency/mutex"
 )
 
 func main() {
@@ -16,5 +17,7 @@ func main() {
 	// channels.RunWorkerPools()
 	// channels.RunPipleline()
 	// channels.RunRateLimiter()
-	channels.RunFinInOutParallelFetching()
+	// channels.RunFinInOutParallelFetching()
+
+	mutex.RunCounter()
 }
